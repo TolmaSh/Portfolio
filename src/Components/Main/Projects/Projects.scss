@@ -1,0 +1,20 @@
+.projects {
+  background-color: lightsalmon;
+  padding: 20px 0 100px 0;
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    width: 350px;
+
+    &-img {
+      width: 350px;
+      height: 350px;
+      background-color: #676767;
+    }
+  }
+}

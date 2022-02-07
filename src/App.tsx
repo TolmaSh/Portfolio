@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import useLocalStorage from 'use-local-storage'
 import {Header} from "./Components/Header/Header";
 import {Main} from "./Components/Main/Main";

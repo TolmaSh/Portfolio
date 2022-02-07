@@ -5,8 +5,10 @@ import {Navigation} from "./Navigation/Navigation";
 export const Header = () => {
     return (
         <header className='header'>
-            <h1>Header</h1>
-            <Navigation/>
+            <div className="container container--row">
+                <h1 >Header</h1>
+                <Navigation/>
+            </div>
         </header>
     );
 };
