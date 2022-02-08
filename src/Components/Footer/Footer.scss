@@ -1,0 +1,8 @@
+.footer {
+  background-color: lightcyan;
+  padding: 20px 0 100px 0;
+  &__content {
+    display: flex;
+    gap: 30px;
+  }
+}
