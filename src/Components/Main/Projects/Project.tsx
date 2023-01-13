@@ -11,6 +11,7 @@ export const Project = () => {
             <h3 className='projects__item-title'>Project Title</h3>
             <p className='projects__item-text'>Lorem ipsum dolor sit amet,ma modi necessitatibus, neque nesciunt quae
                 quibusdam rerum, sequi ullam?</p>
+
         </div>
     );
 };
