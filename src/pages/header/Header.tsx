@@ -6,7 +6,7 @@ export const Header = () => {
     return (
         <header className='header'>
             <div className="container container--row">
-                <h1 >Header</h1>
+                <h1>Header</h1>
                 <Navigation/>
             </div>
         </header>

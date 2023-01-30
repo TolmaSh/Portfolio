@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.scss';
+import './styles/app.scss';
 import useLocalStorage from 'use-local-storage'
-import {Header} from "./Components/Header/Header";
-import {Main} from "./Components/Main/Main";
-import {Footer} from "./Components/Footer/Footer";
+import {Header} from "./pages/header/Header";
+import {Main} from "./pages/main/Main";
+import {Footer} from "./pages/footer/Footer";
 
 
 function App() {

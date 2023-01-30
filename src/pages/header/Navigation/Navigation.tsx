@@ -1,21 +1,24 @@
 import React from 'react';
-import './Navigation.scss'
+import './Navigation.scss';
 
 export const Navigation = () => {
     return (
         <nav className='nav'>
             <ul className='nav__list'>
                 <li className='nav__item'>
-                    <a href='#'>First</a>
+                    <a href='#about'>About me</a>
                 </li>
                 <li className='nav__item'>
-                    <a href='#'>Second</a>
+                    <a href='#skills'>Skills</a>
                 </li>
                 <li className='nav__item'>
-                    <a href='#'>Third</a>
+                    <a href='#projects'>Projects</a>
                 </li>
                 <li className='nav__item'>
-                    <a href='#'>Fourth</a>
+                    <a href='#contacts'>Contacts</a>
+                </li>
+                <li className='nav__item'>
+                    <a href='#cv'>CV</a>
                 </li>
             </ul>
         </nav>
