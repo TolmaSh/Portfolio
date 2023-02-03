@@ -8,8 +8,8 @@ export const Home = () => {
         <section className="home">
             <div className="container container--row">
                 <div className="home__information">
-                    <p className="home__subtitle subtitle">Hello,I`m</p>
-                    <h1 className="home__title title">Anatoly Movchan</h1>
+                    <p className="home__subtitle subtitle">Hi, i`m</p>
+                    <h1 className="home__title title">Anatoly <span>Movchan</span></h1>
                     <p className="home__text text">I’m a front-end developer who has a results-focused attitude to creating SPA, using React(JS/TS),
                         Redux. I would like to find project work and full-time employment in a company with a modern
                         approach to development and a collaborative team.</p>
@@ -29,7 +29,7 @@ export const Home = () => {
                                 <img src={TypescriptIcon} alt="typescript"/>
                             </li>
                         </ul>
-                        <img className="home__photo" src="https://ethemestudio.com/demo/fungi/4_developer/image/hero_main_image.png" alt="image"/>
+                        <img className="home__photo" src="https://ethemestudio.com/demo/fungi/4_developer/image/hero_main_image.png" alt="User Avatar"/>
                 </div>
             </div>
 
